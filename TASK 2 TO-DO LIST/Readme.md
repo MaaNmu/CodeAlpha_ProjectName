@@ -26,7 +26,7 @@ TaskMaster is a clean, responsive, and user-friendly to-do list application that
 4. Use the edit button (pencil icon) to modify a task
 5. Use the delete button (trash icon) to remove a task
 
-## Perview
+## Perview    https://sunny-ganache-e64f83.netlify.app/
 
 
 ## Technical Details

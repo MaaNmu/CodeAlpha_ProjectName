@@ -1,11 +1,13 @@
 # TaskMaster - Your Daily To-Do List
 
 TaskMaster is a clean, responsive, and user-friendly to-do list application that helps you organize your daily tasks efficiently.
+
+
+<br/>
 <img width="646" height="747" alt="image" src="https://github.com/user-attachments/assets/13bcadd4-abce-461a-96c8-16fb9c7ff167" />
 
 
-![TaskMaster UI](images/Screenshot.png)
-<img src="images/Screenshot.png" alt="TaskMaster UI" width="600"/>
+
 ## Features
 
 - ✅ Add new tasks with a simple input

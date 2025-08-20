@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Your Daily To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-tasks"></i> TaskMaster</h1>
+            <p class="subtitle">Organize your daily tasks with ease</p>
+        </header>
+        
+        <div class="input-section">
+            <input type="text" id="task-input" placeholder="Enter a new task...">
+            <button id="add-btn">Add Task</button>
+        </div>
+        
+        <div class="tasks-section">
+            <h2 class="section-title"><i class="fas fa-list-check"></i> Your Tasks</h2>
+            <ul id="tasks-list">
+                <!-- Tasks will be added here dynamically -->
+                <div class="empty-state">
+                    <i class="fas fa-clipboard-list"></i>
+                    <p>No tasks yet. Add a task to get started!</p>
+                </div>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>Your tasks are saved automatically</p>
+        </footer>
+    </div>
+        <script src="script.js"></script>
+    
+</body>
+</html>
